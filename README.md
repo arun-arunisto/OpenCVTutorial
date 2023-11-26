@@ -20,7 +20,8 @@ Repo Contents:
 
 15. handTrackingBasics - Hand tracking using opencv and mediapipe
     to install mediapipe use:
-    <br><code>pip install mediapipe</code>
+    <br><code>pip install mediapipe</code><br>
+    use the below image for the hand landmarks reference:
 
     ![HandLandmarks](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/fe81791b-6d49-4a7d-8a73-a753a4294602)
     
