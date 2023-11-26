@@ -16,4 +16,11 @@ Repo Contents:
 11. Computer Vision Tutorial 11 - Object Tracking
 12. Computer Vision Tutorial 12 - Face Detection
 13. Computer Vision Tutorial 13 - Object Detection using Tensorflow Model
-14. Computer Vision Tutorial 14 - Pose Detection 
+14. Computer Vision Tutorial 14 - Pose Detection
+
+15. handTrackingBasics - Hand tracking using opencv and mediapipe
+    to install mediapipe use:
+    <br><code>pip install mediapipe</code>
+
+    ![HandLandmarks](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/fe81791b-6d49-4a7d-8a73-a753a4294602)
+    
