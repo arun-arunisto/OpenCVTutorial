@@ -32,5 +32,11 @@ Repo Contents:
     ![marker-id-0](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/5d17bfbf-df14-4fc1-953e-d7af3b97f122) ![marker-id-1](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/4b96a0ce-a368-4ab3-b8bb-23994085ab08) 
 ![marker-id-2](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/c2a0f088-b5ea-4c06-8709-cfdf08312668)![marker-id-3](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/8899c53b-1910-49ae-a8b4-1de80cbfb3b5)
 
+17. markerDetection - After generating markers for the marker based AR next, we need to detect the markers. so, this file contains of the basics of marker detection using opencv-python
+    sample images:
+
+    ![Screenshot (104)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/9e661fbc-85a5-4fab-8dd7-1d657b590a1c)
+
+        
 
     
