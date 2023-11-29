@@ -37,6 +37,16 @@ Repo Contents:
 
     ![Screenshot (104)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/9e661fbc-85a5-4fab-8dd7-1d657b590a1c)
 
+18. imageAugmentationBasics - Image augmentation basics source code
+
+    screenshots:
+    ![Screenshot (106)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/398bfef4-74e5-4845-b291-55cfa3bc95e0)
+
+    ![Screenshot (107)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/b7ba4f61-5cce-4caa-8bdf-1d3ab8ed609e)
+
+
+    
+
         
 
     
