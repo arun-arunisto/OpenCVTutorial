@@ -45,6 +45,14 @@ Repo Contents:
     ![Screenshot (107)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/b7ba4f61-5cce-4caa-8bdf-1d3ab8ed609e)
 
 
+19. poseEstimationBasics - Pose Estimation using open-cv and mediapipe
+
+    use the below image to refer the pose estimation landmark
+
+
+    ![77738pose_tracking_full_body_landmarks](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/6d710f6d-b492-4a40-a77e-bef2087b6f48)
+
+
     
 
         
