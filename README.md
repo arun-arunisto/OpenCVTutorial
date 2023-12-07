@@ -52,6 +52,13 @@ Repo Contents:
 
     ![77738pose_tracking_full_body_landmarks](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/6d710f6d-b492-4a40-a77e-bef2087b6f48)
 
+20. faceDetectionBasics - Face Detection using open-cv and mediapipe
+
+    result:
+
+    ![Screenshot (112)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/e57370f4-3f32-41af-a2d8-24b8a5f10228)
+
+
 
     
 
