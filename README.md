@@ -58,6 +58,14 @@ Repo Contents:
 
     ![Screenshot (112)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/e57370f4-3f32-41af-a2d8-24b8a5f10228)
 
+21. faceMeshBasics - Face Mesh using open-cv and mediapipe
+
+    result:
+
+    ![Screenshot (115)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/17ff65b7-2561-4100-8714-8255c8cbe7c1)
+
+    
+
 
 
     
