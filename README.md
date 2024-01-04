@@ -64,6 +64,15 @@ Repo Contents:
 
     ![Screenshot (115)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/17ff65b7-2561-4100-8714-8255c8cbe7c1)
 
+22. fingerCounter - Counting fingers using open-cv and mediapipe
+
+    result:
+
+    ![mL4ytsBiD2](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/45ab45d7-ec0f-4941-a4a3-51b6dad2dfdf)
+
+
+    
+
     
 
 
