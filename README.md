@@ -70,6 +70,14 @@ Repo Contents:
 
     ![mL4ytsBiD2](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/45ab45d7-ec0f-4941-a4a3-51b6dad2dfdf)
 
+23. ai_virtual_mouse - Virtual mouse using opencv-python and mediapipe
+
+    result:
+
+    ![Screenshot (135)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/bc4dd309-dde7-4df1-89a6-406087fdd83f)
+
+    
+
 
     
 
