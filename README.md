@@ -76,6 +76,12 @@ Repo Contents:
 
     ![Screenshot (135)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/bc4dd309-dde7-4df1-89a6-406087fdd83f)
 
+24. ai_virtual_keyboard - Virtual keyboard using opencv-python and mediapipe
+
+    result:
+
+    ![Screenshot (136)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/82ca3102-4690-4345-b646-e0f05c3f4b59)
+
     
 
 
