@@ -80,18 +80,7 @@ Repo Contents:
 
     result:
 
-    ![Screenshot (136)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/82ca3102-4690-4345-b646-e0f05c3f4b59)
-
-    
-
-
-    
-
-    
-
-
-
-    
+    ![Screenshot (138)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/2d0feb1b-835b-4419-a884-069bbb51dc98)
 
         
 
