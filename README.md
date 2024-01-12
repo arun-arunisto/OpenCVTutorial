@@ -83,6 +83,7 @@ Repo Contents:
     ![Screenshot (138)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/2d0feb1b-835b-4419-a884-069bbb51dc98)
 
 25. useful_utils_opencv - Contains very useful random functions like cropping video, reversing video, saving video, etc
+26. image_classification_using_scikit_learn - image classification using scikit learn
 
         
 
