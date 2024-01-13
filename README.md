@@ -86,6 +86,13 @@ Repo Contents:
 27. image_classification_using_scikit_learn - image classification using scikit learn. dataset used for the classification <a href="https://drive.google.com/drive/folders/1siM1lOGZPKKeo4krRCzgGxFk8DyUxL1T?usp=drive_link">Dataset Link</a>
 28. image_classification_with_yolo - image classification using yolov8. dataset used for the classification <a href="https://drive.google.com/drive/folders/10bc6-HYQzjNomgX4-vCMSRsSNVeZy1ii?usp=sharing">Dataset Link</a>
 29. image_classification_with_tm - image class using teachable machine, and the code file is checking the models accuracy score dataset used for this file is the same of yolov8
+30. parking_spot_detection_and_counter - Parking spot counter on live video with machine learning image classification technique using scikit-learn. Link to the data, model, and position <a href="https://drive.google.com/drive/folders/1Jx2LfcVjgSFMSGiBdVhTsnhfjD4NIlT7?usp=sharing">Link to the files used in this project</a>
+
+    result:
+
+    ![Screenshot (139)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/42d65e4a-8c36-4ea7-a16d-7bfa4af8344e)
+
+    
 
         
 
