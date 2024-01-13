@@ -84,6 +84,7 @@ Repo Contents:
 
 25. useful_utils_opencv - Contains very useful random functions like cropping video, reversing video, saving video, etc
 27. image_classification_using_scikit_learn - image classification using scikit learn. dataset used for the classification <a href="https://drive.google.com/drive/folders/1siM1lOGZPKKeo4krRCzgGxFk8DyUxL1T?usp=drive_link">Dataset Link</a>
+28. image_classification_with_yolo - image classification using yolov8. 
 
         
 
