@@ -92,7 +92,7 @@ Repo Contents:
 
     ![Screenshot (139)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/42d65e4a-8c36-4ea7-a16d-7bfa4af8344e)
 
-31. american_sign_language_detection - american sign language detection using opencv, mediapipe and yolov8 for image classification
+31. american_sign_language_detection - american sign language detection using opencv, mediapipe and yolov8 for image classification. dataset and model used for this project <a href="https://drive.google.com/drive/folders/1XUbDUIeMXp8if1cuzBRxNDk04mIJDpde?usp=sharing">Link</a>
 
     result:
 
