@@ -1,3 +1,5 @@
+
+https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/ead6b83e-be38-44c6-80cf-1ba621ed704a
 <h2>Opencv Tutorial</h2>
 <p>open cv computer visions package used in python if youre a beginner or youre a computer enthusiast then it will very usefull for you, because this repository contains the opencv tutorial from the beginning at a order of Tutorial names!! So, Enjoy!!, Happy Coding!!</p>
 
@@ -97,6 +99,18 @@ Repo Contents:
     result:
 
     ![Screenshot (140)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/7343c940-36e5-410b-bf3f-5eaca39a5caf)
+
+32. object_detection_with_yolo
+        - yolo-basics - This code file covers the yolo basic detection with images, videos, and real-time webcam
+
+        result:
+    
+        ![python_DGf6r77zxD](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/70988f5b-d16a-4830-b4d7-b2c343a3f057)
+
+
+
+
+        
 
 
     
