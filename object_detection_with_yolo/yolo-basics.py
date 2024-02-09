@@ -3,10 +3,10 @@
 from ultralytics import YOLO
 import cv2
 
-#model = YOLO('Yolo Weights/yolov8n.pt') #model -> yolo version 8 n for nano
+#model = YOLO('yolov8n.pt') #model -> yolo version 8 n for nano
 #you can also change the model nano is the smaller one and there is medium and large
-#model = YOLO('Yolo Weights/yolov8l.pt') #l -> large its slower than other two
-model = YOLO('Yolo Weights/yolov8m.pt') #m -> for medium
+#model = YOLO('yolov8l.pt') #l -> large its slower than other two
+model = YOLO('yolov8m.pt') #m -> for medium
 
 results = model('images/cars-on-road.jpg', show=True)
 cv2.waitKey(0)
@@ -25,7 +25,7 @@ cap.set(3, 1280)
 cap.set(4, 720)
 
 #yolo model
-model = YOLO('Yolo Weights/yolov8l.pt')
+model = YOLO('yolov8l.pt')
 names = model.names #class names for labels
 
 while True:
