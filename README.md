@@ -101,9 +101,9 @@ Repo Contents:
 32. object_detection_with_yolo
         - yolo-basics - This code file covers the yolo basic detection with images, videos, and real-time webcam
 
-        result:
+    result:
     
-        ![python_DGf6r77zxD](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/70988f5b-d16a-4830-b4d7-b2c343a3f057)
+    ![python_DGf6r77zxD](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/70988f5b-d16a-4830-b4d7-b2c343a3f057)
 
 
 
