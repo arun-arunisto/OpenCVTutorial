@@ -105,6 +105,13 @@ Repo Contents:
     
     ![python_DGf6r77zxD](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/70988f5b-d16a-4830-b4d7-b2c343a3f057)
 
+33. Project 1 Car Counter
+    Car counter project using yolo and for tracking we are using sort module
+
+    result:
+
+    ![Screenshot (147)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/b745e822-cb19-4d91-abbc-5f56b9f79ff2)
+
 
 
 
