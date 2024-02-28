@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.title("Sample workout file")
 
-cap = cv2.VideoCapture("videos/video.mp4")
+cap = cv2.VideoCapture(<video_file>)
 
 video_frame = st.empty()
 
