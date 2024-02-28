@@ -112,6 +112,9 @@ Repo Contents:
 
     ![Screenshot (147)](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/b745e822-cb19-4d91-abbc-5f56b9f79ff2)
 
+34. playing_videos_using_cv2_streamlit.py
+        - Sample code of playing videos using streamlit and opencv-python
+
 
 
 
