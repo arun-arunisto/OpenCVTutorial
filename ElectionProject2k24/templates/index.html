@@ -1,0 +1,149 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Camera Feed</title>
+    <style>
+        #video-container,
+        #image-container {
+            text-align: center;
+        }
+
+        #video,
+        #capturedImage {
+            max-width: 100%;
+            border: 2px solid #333;
+        }
+
+        .btn {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #image-container {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live Camera Feed</h1>
+
+    <div id="video-container">
+        <video id="video" autoplay></video>
+        <button id="takeSelfieBtn" class="btn">Take a selfie</button>
+
+        <!-- Input for uploading an image -->
+        <input type="file" id="uploadImageInput" accept="image/*">
+        <button id="uploadImageBtn" class="btn">Upload Image</button>
+    </div>
+
+    <div id="image-container">
+        <img id="capturedImage">
+        <p>Thank You Dear</p>
+        <form action="#" method="post">
+            <textarea placeholder="Any suggestions"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        const videoContainer = document.getElementById('video-container');
+        const imageContainer = document.getElementById('image-container');
+        const video = document.getElementById('video');
+        const capturedImage = document.getElementById('capturedImage');
+        const takeSelfieBtn = document.getElementById('takeSelfieBtn');
+        const uploadImageInput = document.getElementById('uploadImageInput');
+        const uploadImageBtn = document.getElementById('uploadImageBtn');
+
+        let stream;
+
+        // Request permission to access the camera
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then((videoStream) => {
+                stream = videoStream;
+                // Set the stream as the source for the video element
+                video.srcObject = stream;
+            })
+            .catch((error) => {
+                console.error('Error accessing the camera:', error);
+                alert('Error accessing the camera. Please check your camera and try again.');
+            });
+
+        // Function to capture and save the image
+        function takeSelfie() {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+            // Convert the canvas content to a data URL (base64-encoded PNG)
+            const dataURL = canvas.toDataURL('image/png');
+
+            // Display the captured image
+            showImage(dataURL);
+
+            // Send the captured image to the server
+            saveImage(dataURL);
+        }
+
+        // Function to handle image upload
+        function uploadImage() {
+            const fileInput = document.getElementById('uploadImageInput');
+            const file = fileInput.files[0];
+
+            if (file) {
+                // Display the uploaded image
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    showImage(e.target.result);
+
+                    // Send the uploaded image to the server
+                    saveImage(e.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        // Function to show the captured or uploaded image
+        function showImage(imageSrc) {
+            // Stop the camera stream
+            const tracks = stream.getTracks();
+            tracks.forEach(track => track.stop());
+
+            // Hide the video container and buttons
+            videoContainer.style.display = 'none';
+            takeSelfieBtn.style.display = 'none';
+            uploadImageInput.style.display = 'none';
+            uploadImageBtn.style.display = 'none';
+
+            // Display the captured or uploaded image
+            imageContainer.style.display = 'block';
+            capturedImage.src = imageSrc;
+        }
+
+        // Function to send the captured or uploaded image to the server
+        function saveImage(imageData) {
+            fetch('/save_image', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'image_data=' + encodeURIComponent(imageData),
+            })
+            .then(response => response.text())
+            .then(message => console.log(message))
+            .catch(error => console.error('Error saving image:', error));
+        }
+
+        // Attach the event listeners
+        takeSelfieBtn.addEventListener('click', takeSelfie);
+        uploadImageBtn.addEventListener('click', uploadImage);
+    </script>
+</body>
+</html>
