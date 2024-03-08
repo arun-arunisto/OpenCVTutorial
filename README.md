@@ -115,6 +115,9 @@ Repo Contents:
 34. playing_videos_using_cv2_streamlit.py
         - Sample code of playing videos using streamlit and opencv-python
 
+35. ElectionProject2k24
+        - A simple flask application to access camera and to capture photo
+
 
 
 
