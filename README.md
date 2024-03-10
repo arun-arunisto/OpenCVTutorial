@@ -118,6 +118,9 @@ Repo Contents:
 35. ElectionProject2k24
         - A simple flask application to access camera and to capture photo
 
+36. streamlit_multiple_cameras.py
+        - Accessing multiple cameras using streamlit
+
 
 
 
