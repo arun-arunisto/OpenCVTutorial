@@ -120,6 +120,12 @@ Repo Contents:
 
 36. streamlit_multiple_cameras.py
         - Accessing multiple cameras using streamlit
+37. Person-Counter
+        - Customer in & Customer out count from a shop using opencv-python, sort, yolov8
+
+    result:
+
+    ![python_xIMw3pvaTq](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/91635a55-9d32-4b19-8598-eacdd701d134)
 
 
 
