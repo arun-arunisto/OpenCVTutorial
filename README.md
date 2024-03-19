@@ -125,12 +125,8 @@ Repo Contents:
 
     result:
 
-    ![python_xIMw3pvaTq](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/91635a55-9d32-4b19-8598-eacdd701d134)
-
-
-
-
-        
+    ![python_Ikc0gQXZ5t](https://github.com/arun-arunisto/OpenCVTutorial/assets/86800553/477351a5-d6dc-46f1-b358-c5f687b9b218)
+   
 
 
     
